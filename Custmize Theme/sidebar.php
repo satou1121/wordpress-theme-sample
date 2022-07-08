@@ -22,9 +22,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		  </div>
 		  <div class="">
 			<h4>カテゴリーアーカイブ</h4>
-			<?php $categorise = get_categorise(); ?>
+			<?php $categories = get_categories(); ?>
 			<ul class="">
-			<?php foreach($categorise as $category): ?>
+			<?php foreach($categories as $category): ?>
 			<li>
 				<a href="#"><?php echo $category->name; ?></a>
 			</li>
